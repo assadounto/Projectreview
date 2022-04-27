@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title" class="title">Software Survey Form</h1>
+  <form id="survey-form">
+    <div class="name">
+      <h3>Name</h3>
+      <label id="name-label" </label>
+      <input id="name" placeholder="Enter Your Name">
+    </div>
+    <div class="email">
+          <h3>Email</h3>
+      <label id="email-label"</label>
+      <input id="email" type="email" placeholder="Enter Your Email">
+    </div>
+    <div class="age">
+          <h3>Age</h3>
+      <label id="number-label"</label>
+      <input id="number" type="number" min="1" max="20" placeholder="Enter Your Number">
+    </div>
+    <div class="country" class="country">
+      <label>Please choose  your country:</label>
+      <select>
+        <option value="BMW"> Cameroon
+        </option>
+        <option value="Mercedes"> Ghana
+        </option>
+        <option value="Audi"> Rwanda
+        </option>
+        <option value="Skoda"> Ethopia
+        </option>
+      </select>
+    </div>
+
+    <p>Would you join the program the next time it is held?</p>
+    <div class="radio-button">
+      <input type="radio" name="drone" value="Definitely" checked />
+      <label for="Definitely">Definitely</label>
+    </div>
+    <div class="radio">
+      <input type="radio" name="drone" value="most likely" />
+      <label for="most likely">most likely</label>
+    </div>
+    <div class="radio">
+      <input type="radio" name="drone" value="sure" />
+      <label for="sure">sure</label>
+    </div>
+    
+    <div class="checkbox">
+      <p>What programing language do u think should be added to the next webinar</p>
+
+      Html: <input type="checkbox" value="Html">
+      Css: <input type="checkbox" value="Html">
+      JavaScript: <input type="checkbox" value="JavaScript">
+      Python: <input type="checkbox" value="Python">
+      Ruby: <input type="checkbox" value="Ruby">
+      Java: <input type="checkbox" value="Java">
+      C++: <input type="checkbox" value="C++">
+      C#: <input type="checkbox" value="C#">
+      React: <input type="checkbox" value="React">
+    </div>
+    <div>
+      <p>Any Suggestions or Comments? </p>
+      <textarea class="textarea" placeholder="enter comments here"></textarea>
+    </div>
+    <button id="submit" class="submit-button">Submit</button>
+
+  </form>
+
+  <p id="description" class="description"> This is the survey form of Richmond and Queeniva</p>
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
